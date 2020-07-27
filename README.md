@@ -85,7 +85,8 @@ One simplified way you could think about why `profanity-check` works is this: du
 
 This library is far from perfect. For example, it has a hard time picking up on less common variants of swear words like *"f4ck you"* or *"you b1tch"* because they don't appear often enough in the training corpus. **Never treat any prediction from this library as unquestionable truth, because it does and will make mistakes.** Instead, use this library as a heuristic.
 
-## scikit-learn version
+## Memory consumption
 
-0.22 as it is the latest one that can work with joblibed items as they are and also
-work with Python3.8, see <https://github.com/joblib/joblib/issues/917> for details.
+Run pytest with [fil-profile](https://pythonspeed.com/articles/memory-profiler-data-scientists/).
+Results showed a peak of memory usage on 71.4MB.
+Results not included due to file size.
