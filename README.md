@@ -7,6 +7,10 @@ A fast, robust Python library to check for profanity or offensive language in st
 
 **Notice**: We created a library for this project, see: <https://pypi.org/project/alt-profanity-check/> and <https://gitlab.com/dimitrios/alt-profanity-check/>
 
+## Disclaimer
+
+Profanity-check is originally created by [Victor Zhou](https://github.com/vzhou842), and updated by [other contributors](https://github.com/dimitrismistriotis/profanity-check/graphs/contributors). This version of profanity check will be use by [Bleepy](https://github.com/reyniel26/bleepy) to detect and bleep tagalog and english profanity from videos. Therefore this version is called taglish-profanity-check.
+
 ## How It Works
 
 `profanity-check` uses a linear SVM model trained on 200k human-labeled samples of clean and profane text strings. Its model is simple but surprisingly effective, meaning **`profanity-check` is both robust and extremely performant**.
