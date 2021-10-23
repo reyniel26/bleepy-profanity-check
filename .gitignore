@@ -218,3 +218,11 @@ venv.bak/
 
 # .idea
 .idea/
+
+# --
+train_test.py
+trainlog.txt
+test.py
+collect.py
+clean_tagalog.py
+collected data/
