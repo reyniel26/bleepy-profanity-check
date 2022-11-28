@@ -1,7 +1,12 @@
-# profanity-check
+# bleepy-profanity-check
 
-[![Build Status](https://travis-ci.com/dimitrismistriotis/profanity-check.svg?branch=master)](https://travis-ci.com/dimitrismistriotis/profanity-check)
-[![release](https://img.shields.io/badge/dynamic/json.svg?label=release&url=https%3A%2F%2Fpypi.org%2Fpypi%2Fprofanity-check%2Fjson&query=%24.info.version&colorB=blue)](https://pypi.org/project/profanity-check/)
+<!-- [![Build Status](https://travis-ci.com/dimitrismistriotis/profanity-check.svg?branch=master)](https://travis-ci.com/dimitrismistriotis/profanity-check) -->
+```
+pip install bleepy-profanity-check
+```
+[`bleepy-profanity-check`](https://pypi.org/project/bleepy-profanity-check/)
+
+`profanity-check` version used for `Bleepy`
 
 A fast, robust Python library to check for profanity or offensive language in strings. Read more about how and why `profanity-check` was built in [this blog post](https://victorzhou.com/blog/better-profanity-detection-with-scikit-learn/). You can also test out `profanity-check` [in your browser](https://repl.it/@vzhou842/profanity-check-playground).
 

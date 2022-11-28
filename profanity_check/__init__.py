@@ -1,2 +1,4 @@
+"""Profanity Check"""
 from .profanity_check import predict, predict_prob
-__version__="1.0.6"
+
+__version__="0.1.7"
