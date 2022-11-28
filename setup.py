@@ -16,7 +16,7 @@ authors = [
 
 setuptools.setup(
     name="alt-profanity-check",
-    version="0.1.7",
+    version="0.1.8",
     author= ", ".join(authors),
     author_email="rtescamillas@ccc.edu.ph",
     description=(
