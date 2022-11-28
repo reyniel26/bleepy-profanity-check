@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bleepy-profanity-check"
+version = "0.1.7"
+authors = [
+  { name="Victor Zhou (original author), Menelaos Kotoglou, Dimitrios Mistriotis, and Reyniel Mark Escamillas", email="rtescamillas@ccc.edu.ph" },
+]
+description = 'A fast, robust library to check for offensive language in strings. This version of "profanity-check" is used for Bleepy. '
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+  "scikit-learn==1.1.3", "joblib>=1.2.0"
+]
+
+[project.optional-dependencies]
+tests = [
+  "pytest>=7.2.0",
+  "pylint>=2.15.6",
+  "flake8>=5.0.4"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/reyniel26/bleepy-profanity-check"
+"Bug Tracker" = "https://github.com/reyniel26/bleepy-profanity-check/issues"
+
+# py -m pip install --upgrade build
+# py -m build

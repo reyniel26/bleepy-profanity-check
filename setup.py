@@ -1,25 +1,46 @@
+"""
+Setup
+"""
+from pathlib import Path
+
 import setuptools
 
-with open("README.md", "r") as fh:
-  long_description = fh.read()
+long_description = Path("README.md").read_text(encoding="utf8")
+
+authors = [
+  "Victor Zhou (original author)",
+  "Menelaos Kotoglou",
+  "Dimitrios Mistriotis",
+  "Reyniel Mark T. Escamillas"
+]
 
 setuptools.setup(
-  name="profanity-check",
-  version="1.0.6",
-  author="Victor Zhou",
-  author_email="vzhou842@gmail.com",
-  description="A fast, robust library to check for offensive language in strings.",
-  long_description=long_description,
-  long_description_content_type="text/markdown",
-  url="https://github.com/vzhou842/profanity-check",
-  packages=setuptools.find_packages(),
-  install_requires=["scikit-learn>=0.24.0", "joblib>=1.0.0"],
-  package_data={'profanity_check': ['data/model.joblib', 'data/vectorizer.joblib']},
-  classifiers=[
-    "Development Status :: 5 - Production/Stable",
-    "Natural Language :: English",
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
-  ],
+    name="alt-profanity-check",
+    version="0.1.7",
+    author= ", ".join(authors),
+    author_email="rtescamillas@ccc.edu.ph",
+    description=(
+        "A fast, robust library to check for offensive language in strings. "
+        'This version of "profanity-check" is used for Bleepy'
+    ),
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://github.com/reyniel26/bleepy-profanity-check",
+    packages=setuptools.find_packages(),
+    install_requires=["scikit-learn==1.1.3", "joblib>=1.2.0"],
+    python_requires=">=3.7",
+    package_data={"profanity_check": [
+      "data/model.joblib", "data/vectorizer.joblib",
+      "data/tagalog_vectorizer.joblib","data/tagalog_model.joblib"
+      ]},
+    classifiers=[
+        "Development Status :: 5 - Production/Stable",
+        "Natural Language :: English",
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    # entry_points={
+    #     "console_scripts": ["profanity_check=profanity_check.command_line:main"],
+    # },
 )
