@@ -1,4 +1,4 @@
-joblib==1.0.0
+joblib==1.2.0
 numpy==1.22.0
 # Used for the training script
 pandas==1.0.5
