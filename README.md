@@ -6,7 +6,7 @@ pip install bleepy-profanity-check
 ```
 [`bleepy-profanity-check`](https://pypi.org/project/bleepy-profanity-check/)
 
-`profanity-check` version used for `Bleepy`
+`profanity-check` version used for [`Bleepy`](https://github.com/reyniel26/bleepy)
 
 A fast, robust Python library to check for profanity or offensive language in strings. Read more about how and why `profanity-check` was built in [this blog post](https://victorzhou.com/blog/better-profanity-detection-with-scikit-learn/). You can also test out `profanity-check` [in your browser](https://repl.it/@vzhou842/profanity-check-playground).
 
@@ -14,7 +14,7 @@ A fast, robust Python library to check for profanity or offensive language in st
 
 ## Disclaimer
 
-Profanity-check is originally created by [Victor Zhou](https://github.com/vzhou842), and updated by [other contributors](https://github.com/dimitrismistriotis/profanity-check/graphs/contributors). This version of profanity check will be use by [Bleepy](https://github.com/reyniel26/bleepy) to detect and bleep tagalog and english profanity from videos. Therefore this version is called taglish-profanity-check.
+Profanity-check is originally created by [Victor Zhou](https://github.com/vzhou842), and updated by [other contributors](https://github.com/dimitrismistriotis/profanity-check/graphs/contributors). This version of profanity-check is used by [Bleepy](https://github.com/reyniel26/bleepy) to detect and bleep tagalog and english profanity from videos. Therefore this version is called bleepy-profanity-check.
 
 ## How It Works
 

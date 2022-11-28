@@ -8,7 +8,7 @@ version = "0.1.8"
 authors = [
   { name="Victor Zhou (original author), Menelaos Kotoglou, Dimitrios Mistriotis, and Reyniel Mark Escamillas", email="rtescamillas@ccc.edu.ph" },
 ]
-description = 'A fast, robust library to check for offensive language in strings. This version of "profanity-check" is used for Bleepy. '
+description = 'A fast, robust library to check for offensive language in strings. This version of "profanity-check" is used by Bleepy. '
 readme = "README.md"
 requires-python = ">=3.7"
 classifiers = [

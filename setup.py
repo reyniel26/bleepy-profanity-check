@@ -21,7 +21,7 @@ setuptools.setup(
     author_email="rtescamillas@ccc.edu.ph",
     description=(
         "A fast, robust library to check for offensive language in strings. "
-        'This version of "profanity-check" is used for Bleepy'
+        'This version of "profanity-check" is used by Bleepy'
     ),
     long_description=long_description,
     long_description_content_type="text/markdown",
