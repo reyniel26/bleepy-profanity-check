@@ -16,8 +16,8 @@ def test_accuracy():
     assert list(predict(texts)) == [0, 1, 0, 1, 1, 1]
 
     probs = list(predict_prob(texts))
-    for prob in probs:
-        if probs.index(prob) in (0,2):
+    for i, prob in enumerate(probs):
+        if i in (0,2):
             assert prob <= 0.5
         else:
             assert prob >= 0.5
